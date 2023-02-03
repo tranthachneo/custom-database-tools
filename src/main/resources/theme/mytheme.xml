@@ -1,0 +1,21 @@
+<scheme name="Girl" version="1" parent_scheme="Darcula">
+    <attributes>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="ff0000" />
+            </value>
+        </option>
+        <option name="PHP.RETURN">
+            <value>
+                <option name="FOREGROUND" value="00ff00" />
+            </value>
+        </option>
+    </attributes>
+    <metaInfo>
+        <property name="created">2023-01-17T16:37:17</property>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2022.3.0.0</property>
+        <property name="modified">2023-01-17T16:37:27</property>
+        <property name="originalScheme">_@user_Darcula</property>
+    </metaInfo>
+</scheme>

@@ -1,18 +1,14 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.tranthachneo.customdatabasetools</id>
-    <name>IntelliJ Platform Plugin custom-database-tools</name>
+    <name>Thach Dẹp Trai</name>
     <vendor>tranthachneo</vendor>
 
     <depends>com.intellij.modules.platform</depends>
+    <depends>com.jetbrains.php</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.tranthachneo.customdatabasetools.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.tranthachneo.customdatabasetools.services.MyProjectService"/>
+        <themeProvider id="com.github.tranthachneo.customdatabasetools" path="/theme/mytheme.theme.json"/><![CDATA[
+        ]]><annotator language="PHP" implementationClass="com.github.tranthachneo.GirlAnnotator" />
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.tranthachneo.customdatabasetools.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

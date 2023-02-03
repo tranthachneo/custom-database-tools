@@ -1,0 +1,21 @@
+{
+  "author": "Thach",
+  "dark": true,
+  "name": "Girl",
+  "editorScheme": "theme/mytheme.xml",
+  "colors": {
+    "red": "#76ad24"
+  },
+  "ui": {
+    "Button": {
+      "background": "red",
+      "arc": 30
+    }
+  },
+  "background": {
+    "anchor": "center",
+    "fill": "plain",
+    "transparency": 50,
+    "image": "images/background.png"
+  }
+}
